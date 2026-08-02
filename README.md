@@ -94,17 +94,16 @@
 <p align="center">
   <img
     height="170"
-    src="https://github-readme-stats.vercel.app/api?username=Shreekp16&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github"
+    src="https://github-readme-stats.vercel.app/api?username=Shreekp16&show_icons=true&theme=tokyonight"
     alt="GitHub Stats"
   />
 
   <img
     height="170"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shreekp16&layout=compact&theme=tokyonight&hide_border=true"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shreekp16&layout=compact&theme=tokyonight"
     alt="Top Languages"
   />
 </p>
-
 ---
 
 # 🔥 GitHub Streak
