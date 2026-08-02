@@ -26,6 +26,9 @@
 <a href="https://github.com/Shreekp16">
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
+<a href="https://shreenath-pangal.netlify.app/" target="_blank">
+  <img src="https://img.shields.io/badge/Portfolio-Explore-6f42c1?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Portfolio"/>
+</a>
 </p>
 
 ---
