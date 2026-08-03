@@ -150,7 +150,9 @@
 </a>
 
 </div>
-
+<p align="center">
+  <img src="./assets/footer_banner.svg" alt="Footer" width="100%">
+</p>
 ---
 
 <div align="center">
