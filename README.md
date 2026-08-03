@@ -1,6 +1,8 @@
 <!-- ========================= HEADER ========================= -->
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&pause=1000&color=F7B801&center=true&vCenter=true&width=600&lines=Data+Scientist+%F0%9F%93%8A;AI+Engineer+%F0%9F%A4%96;Machine+Learning+Engineer+%E2%9A%99%EF%B8%8F;Data+Analyst+%F0%9F%93%88"/>
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&pause=1000&color=F7B801&center=true&vCenter=true&width=600&lines=Shreenath+Pangal;Data+Scientist+%F0%9F%93%8A;AI+Engineer+%F0%9F%A4%96;Machine+Learning+Engineer+%E2%9A%99%EF%B8%8F;Data+Analyst+%F0%9F%93%88"/>
+
+
 <div align="center">
 
 <h1>Hi 👋, I'm Shreenath Pangal</h1>
