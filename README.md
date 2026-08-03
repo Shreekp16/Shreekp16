@@ -98,7 +98,7 @@
 
 <div align="center">
 
-<img width="85%" src="https://streak-stats.demolab.com?user=Shreekp16&theme=tokyonight&hide_border=true"/>
+<img width="88%" src="https://streak-stats.demolab.com?user=Shreekp16&theme=tokyonight&hide_border=true"/>
 
 </div>
 
