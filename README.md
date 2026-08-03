@@ -1,6 +1,6 @@
 <!-- ========================= HEADER ========================= -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:3B82F6,50:6366F1,100:9333EA&height=220&section=header&text=Shreenath%20Pangal&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Data%20Analyst%20•%20Data%20Scientist%20•%20Machine%20Learning%20Engineer&descAlignY=58"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2563EB,50:4F46E5,100:7C3AED&height=180&section=header&text=Shreenath%20Pangal&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Data%20Analyst%20•%20Data%20Scientist%20•%20AI%20%26%20ML%20Engineer&descSize=18&descAlignY=55"/>
 
 <div align="center">
 
@@ -50,13 +50,11 @@
 
 🎓 B.Tech Computer Science Graduate (2025)
 
-📊 Passionate about Data Analytics, Machine Learning, and Artificial Intelligence.
+💡 Passionate about **Data Science, Artificial Intelligence, Machine Learning, Deep Learning, and Generative AI**.
 
-💡 Interested in building data-driven solutions using Python, SQL, Machine Learning, and Business Intelligence tools.
+📊 Interested in building intelligent applications, predictive models, data-driven solutions, and interactive dashboards using modern AI and analytics tools.
 
-📈 Enjoy working on Machine Learning models, Data Analysis, Dashboard Development, and solving real-world business problems.
-
-🎯 Currently seeking opportunities as a **Data Analyst**, **Data Scientist**, or **Machine Learning Engineer**.
+🚀 Actively seeking opportunities as a **Data Analyst**, **Data Scientist**, **AI Engineer**, or **Machine Learning Engineer**.
 
 </div>
 
@@ -66,12 +64,13 @@
 
 <div align="center">
 
-| 🐍 Programming | 🤖 Machine Learning | 📊 Data Analytics | 📈 Data Visualization |
-| :------------: | :-----------------: | :---------------: | :-------------------: |
-| Python | Scikit-Learn | Data Cleaning | Power BI |
-| SQL | TensorFlow | Exploratory Data Analysis (EDA) | Matplotlib |
-| Pandas | Model Evaluation | Feature Engineering | Seaborn |
-| NumPy | Supervised Learning | Statistical Analysis | Microsoft Excel |
+| 🐍 Programming | 📊 Data Science & Analytics | 🤖 AI & Machine Learning | 📈 Visualization & BI |
+| :------------: | :-------------------------: | :----------------------: | :-------------------: |
+| Python | Data Cleaning | Machine Learning | Power BI |
+| SQL | Data Preprocessing | Deep Learning | Matplotlib |
+| Pandas | Exploratory Data Analysis (EDA) | Generative AI | Seaborn |
+| NumPy | Feature Engineering | Scikit-Learn | Microsoft Excel |
+| Git & GitHub | Statistical Analysis | TensorFlow | Jupyter Notebook |
 
 </div>
 
@@ -157,4 +156,4 @@
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:9333EA,50:6366F1,100:3B82F6&height=120&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,50:4F46E5,100:2563EB&height=90&section=footer"/>
