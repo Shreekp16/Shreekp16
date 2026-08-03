@@ -7,7 +7,7 @@
 
 <h1>Hi 👋, I'm Shreenath Pangal</h1>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=24&duration=3500&pause=900&color=3B82F6&center=true&vCenter=true&width=850&lines=Data+Analyst;Data+Scientist;AI+Engineer;Machine+Learning+Engineer;Deep+Learning+Enthusiast;Generative+AI+Explorer" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=24&duration=3200&pause=900&color=1E293B&center=true&vCenter=true&width=980&lines=Turning+Data+into+Actionable+Insights;Building+Intelligent+AI+Solutions;Machine+Learning+%7C+Deep+Learning;Exploring+Generative+AI;Continuous+Learner+%7C+Problem+Solver;Open+to+AI+%26+Data+Science+Opportunities" alt="Typing SVG" />
 
 <br>
 
