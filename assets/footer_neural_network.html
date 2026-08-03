@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Neural Network Footer</title>
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: #0A0E1A;
+    overflow: hidden;
+  }
+
+  .footer-wrap {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    min-height: 260px;
+    background: linear-gradient(135deg, #0F172A 0%, #111827 45%, #0A0E1A 100%);
+    overflow: hidden;
+  }
+
+  /* faint grid, same as header */
+  .grid-overlay {
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(#1E293B 1px, transparent 1px),
+      linear-gradient(90deg, #1E293B 1px, transparent 1px);
+    background-size: 46px 46px;
+    opacity: 0.35;
+    pointer-events: none;
+  }
+
+  /* ambient ellipse glows, same palette as header banner */
+  .glow {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(70px);
+    pointer-events: none;
+  }
+  .glow-cyan-l {
+    width: 640px; height: 480px;
+    left: -160px; top: 10%;
+    background: radial-gradient(circle, rgba(6,182,212,0.30) 0%, rgba(6,182,212,0) 70%);
+  }
+  .glow-purple-r {
+    width: 640px; height: 480px;
+    right: -160px; top: 10%;
+    background: radial-gradient(circle, rgba(139,92,246,0.28) 0%, rgba(139,92,246,0) 70%);
+  }
+  .glow-top {
+    width: 900px; height: 220px;
+    left: 50%; top: -60px;
+    transform: translateX(-50%);
+    background: radial-gradient(circle, rgba(6,182,212,0.14) 0%, rgba(6,182,212,0) 70%);
+  }
+
+  canvas#net {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+</style>
+</head>
+<body>
+
+<div class="footer-wrap" id="wrap">
+  <div class="grid-overlay"></div>
+  <div class="glow glow-cyan-l"></div>
+  <div class="glow glow-purple-r"></div>
+  <div class="glow glow-top"></div>
+
+  <canvas id="net"></canvas>
+</div>
+
+<script>
+(function () {
+  const wrap = document.getElementById('wrap');
+  const canvas = document.getElementById('net');
+  const ctx = canvas.getContext('2d');
+
+  const CYAN = { r: 6, g: 182, b: 212 };
+  const CYAN_LIGHT = { r: 103, g: 232, b: 249 };
+  const PURPLE = { r: 139, g: 92, b: 246 };
+  const PURPLE_LIGHT = { r: 196, g: 181, b: 253 };
+
+  let W, H, DPR;
+  let nodes = [];
+  let pulses = [];
+
+  function rgba(c, a) { return `rgba(${c.r},${c.g},${c.b},${a})`; }
+
+  function resize() {
+    DPR = Math.min(window.devicePixelRatio || 1, 2);
+    W = wrap.clientWidth;
+    H = wrap.clientHeight;
+    canvas.width = W * DPR;
+    canvas.height = H * DPR;
+    canvas.style.width = W + 'px';
+    canvas.style.height = H + 'px';
+    ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+    initNodes();
+  }
+
+  function initNodes() {
+    nodes = [];
+    // density scales with area, capped
+    const area = W * H;
+    const count = Math.max(26, Math.min(90, Math.round(area / 16000)));
+
+    for (let i = 0; i < count; i++) {
+      const isCyan = Math.random() > 0.5;
+      nodes.push({
+        x: Math.random() * W,
+        y: Math.random() * H,
+        vx: (Math.random() - 0.5) * 0.28,
+        vy: (Math.random() - 0.5) * 0.28,
+        r: 1.6 + Math.random() * 2.6,
+        color: isCyan ? CYAN : PURPLE,
+        lightColor: isCyan ? CYAN_LIGHT : PURPLE_LIGHT,
+        pulsePhase: Math.random() * Math.PI * 2,
+        pulseSpeed: 0.015 + Math.random() * 0.02
+      });
+    }
+
+    pulses = [];
+  }
+
+  function linkDistance() {
+    // proportional to viewport so density feels consistent full-screen
+    return Math.max(110, Math.min(220, W / 8));
+  }
+
+  function maybeSpawnPulse() {
+    if (Math.random() < 0.035 && nodes.length > 4) {
+      const a = nodes[Math.floor(Math.random() * nodes.length)];
+      const maxD = linkDistance();
+      // find a neighbor within range
+      let candidates = [];
+      for (const b of nodes) {
+        if (b === a) continue;
+        const d = Math.hypot(a.x - b.x, a.y - b.y);
+        if (d < maxD) candidates.push(b);
+      }
+      if (candidates.length) {
+        const b = candidates[Math.floor(Math.random() * candidates.length)];
+        pulses.push({
+          x1: a.x, y1: a.y, x2: b.x, y2: b.y,
+          t: 0,
+          speed: 0.012 + Math.random() * 0.012,
+          color: a.color
+        });
+      }
+    }
+  }
+
+  function step() {
+    ctx.clearRect(0, 0, W, H);
+
+    // update node positions
+    for (const n of nodes) {
+      n.x += n.vx;
+      n.y += n.vy;
+      if (n.x < -20) n.x = W + 20;
+      if (n.x > W + 20) n.x = -20;
+      if (n.y < -20) n.y = H + 20;
+      if (n.y > H + 20) n.y = -20;
+      n.pulsePhase += n.pulseSpeed;
+    }
+
+    const maxD = linkDistance();
+
+    // draw connections
+    ctx.lineWidth = 1;
+    for (let i = 0; i < nodes.length; i++) {
+      for (let j = i + 1; j < nodes.length; j++) {
+        const a = nodes[i], b = nodes[j];
+        const d = Math.hypot(a.x - b.x, a.y - b.y);
+        if (d < maxD) {
+          const alpha = (1 - d / maxD) * 0.35;
+          const mixed = a.color === b.color ? a.color : CYAN;
+          ctx.strokeStyle = rgba(mixed, alpha);
+          ctx.beginPath();
+          ctx.moveTo(a.x, a.y);
+          ctx.lineTo(b.x, b.y);
+          ctx.stroke();
+        }
+      }
+    }
+
+    // traveling light pulses along active links
+    maybeSpawnPulse();
+    for (let i = pulses.length - 1; i >= 0; i--) {
+      const p = pulses[i];
+      p.t += p.speed;
+      if (p.t >= 1) { pulses.splice(i, 1); continue; }
+      const px = p.x1 + (p.x2 - p.x1) * p.t;
+      const py = p.y1 + (p.y2 - p.y1) * p.t;
+      const grad = ctx.createRadialGradient(px, py, 0, px, py, 6);
+      grad.addColorStop(0, rgba(p.color, 0.9));
+      grad.addColorStop(1, rgba(p.color, 0));
+      ctx.fillStyle = grad;
+      ctx.beginPath();
+      ctx.arc(px, py, 6, 0, Math.PI * 2);
+      ctx.fill();
+    }
+
+    // draw nodes (glow + core), pulsing size/opacity
+    for (const n of nodes) {
+      const pulse = 0.7 + 0.3 * Math.sin(n.pulsePhase);
+      const glowR = n.r * 5 * pulse;
+
+      const grad = ctx.createRadialGradient(n.x, n.y, 0, n.x, n.y, glowR);
+      grad.addColorStop(0, rgba(n.color, 0.55 * pulse));
+      grad.addColorStop(1, rgba(n.color, 0));
+      ctx.fillStyle = grad;
+      ctx.beginPath();
+      ctx.arc(n.x, n.y, glowR, 0, Math.PI * 2);
+      ctx.fill();
+
+      ctx.fillStyle = rgba(n.lightColor, 0.95);
+      ctx.beginPath();
+      ctx.arc(n.x, n.y, n.r, 0, Math.PI * 2);
+      ctx.fill();
+    }
+
+    requestAnimationFrame(step);
+  }
+
+  window.addEventListener('resize', resize);
+  resize();
+  requestAnimationFrame(step);
+})();
+</script>
+
+</body>
+</html>
