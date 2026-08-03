@@ -1,0 +1,345 @@
+<svg width="1600" height="400" viewBox="0 0 1600 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="45%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0A0E1A"/>
+    </linearGradient>
+
+    <radialGradient id="glowCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="nodeGlowC" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#67E8F9"/>
+      <stop offset="60%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nodeGlowP" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#C4B5FD"/>
+      <stop offset="60%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F1F5F9">
+        <animate attributeName="offset" values="-0.5;1.5" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#F8FEFF">
+        <animate attributeName="offset" values="0;2" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#F1F5F9">
+        <animate attributeName="offset" values="0.5;2.5" dur="4s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <filter id="softBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <filter id="strongBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="textGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <pattern id="grid" width="46" height="46" patternUnits="userSpaceOnUse">
+      <path d="M46 0 L0 0 0 46" fill="none" stroke="#1E293B" stroke-width="0.6" opacity="0.5"/>
+    </pattern>
+
+    <linearGradient id="lineFade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#06B6D4" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="lineFadeP" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Base background -->
+  <rect width="1600" height="400" fill="url(#bg)"/>
+  <rect width="1600" height="400" fill="url(#grid)"/>
+
+  <!-- Ambient glows -->
+  <ellipse cx="230" cy="200" rx="420" ry="320" fill="url(#glowCyan)"/>
+  <ellipse cx="1370" cy="200" rx="420" ry="320" fill="url(#glowPurple)"/>
+  <ellipse cx="800" cy="60" rx="600" ry="120" fill="url(#glowCyan)" opacity="0.25"/>
+
+  <!-- ===== LEFT: Neural network / AI brain ===== -->
+  <g opacity="0.95">
+    <!-- connections -->
+    <g stroke="#06B6D4" stroke-width="1.1" opacity="0.45">
+      <line x1="95" y1="95" x2="185" y2="60"/>
+      <line x1="95" y1="95" x2="70" y2="180"/>
+      <line x1="95" y1="95" x2="180" y2="150"/>
+      <line x1="185" y1="60" x2="255" y2="110"/>
+      <line x1="185" y1="60" x2="180" y2="150"/>
+      <line x1="70" y1="180" x2="150" y2="250"/>
+      <line x1="70" y1="180" x2="180" y2="150"/>
+      <line x1="180" y1="150" x2="255" y2="110"/>
+      <line x1="180" y1="150" x2="230" y2="210"/>
+      <line x1="255" y1="110" x2="230" y2="210"/>
+      <line x1="150" y1="250" x2="230" y2="210"/>
+      <line x1="150" y1="250" x2="120" y2="320"/>
+      <line x1="230" y1="210" x2="280" y2="280"/>
+      <line x1="120" y1="320" x2="280" y2="280"/>
+      <line x1="255" y1="110" x2="300" y2="60"/>
+      <line x1="230" y1="210" x2="300" y2="60" opacity="0.2"/>
+      <line x1="40" y1="270" x2="120" y2="320"/>
+      <line x1="40" y1="270" x2="70" y2="180"/>
+    </g>
+    <!-- light pulses along connections -->
+    <circle r="3" fill="#67E8F9">
+      <animateMotion dur="3.4s" repeatCount="indefinite" path="M95,95 L255,110"/>
+    </circle>
+    <circle r="3" fill="#C4B5FD">
+      <animateMotion dur="4.1s" repeatCount="indefinite" path="M70,180 L230,210"/>
+    </circle>
+    <circle r="2.6" fill="#67E8F9">
+      <animateMotion dur="3.8s" repeatCount="indefinite" path="M150,250 L280,280"/>
+    </circle>
+    <circle r="2.6" fill="#67E8F9">
+      <animateMotion dur="5s" repeatCount="indefinite" path="M185,60 L180,150"/>
+    </circle>
+
+    <!-- nodes -->
+    <g>
+      <circle cx="95" cy="95" r="14" fill="url(#nodeGlowC)"/>
+      <circle cx="95" cy="95" r="4" fill="#E0F7FA"/>
+      <circle cx="185" cy="60" r="11" fill="url(#nodeGlowP)"/>
+      <circle cx="185" cy="60" r="3.4" fill="#F5F3FF"/>
+      <circle cx="70" cy="180" r="12" fill="url(#nodeGlowC)"/>
+      <circle cx="70" cy="180" r="3.6" fill="#E0F7FA"/>
+      <circle cx="180" cy="150" r="16" fill="url(#nodeGlowP)"/>
+      <circle cx="180" cy="150" r="5" fill="#F5F3FF"/>
+      <circle cx="255" cy="110" r="12" fill="url(#nodeGlowC)"/>
+      <circle cx="255" cy="110" r="3.6" fill="#E0F7FA"/>
+      <circle cx="150" cy="250" r="12" fill="url(#nodeGlowC)"/>
+      <circle cx="150" cy="250" r="3.6" fill="#E0F7FA"/>
+      <circle cx="230" cy="210" r="14" fill="url(#nodeGlowP)"/>
+      <circle cx="230" cy="210" r="4.2" fill="#F5F3FF"/>
+      <circle cx="120" cy="320" r="10" fill="url(#nodeGlowC)"/>
+      <circle cx="120" cy="320" r="3" fill="#E0F7FA"/>
+      <circle cx="280" cy="280" r="11" fill="url(#nodeGlowP)"/>
+      <circle cx="280" cy="280" r="3.4" fill="#F5F3FF"/>
+      <circle cx="300" cy="60" r="8" fill="url(#nodeGlowC)"/>
+      <circle cx="300" cy="60" r="2.6" fill="#E0F7FA"/>
+      <circle cx="40" cy="270" r="8" fill="url(#nodeGlowP)"/>
+      <circle cx="40" cy="270" r="2.6" fill="#F5F3FF"/>
+    </g>
+  </g>
+
+  <!-- circuit lines extending from left cluster -->
+  <g stroke="#06B6D4" stroke-width="1" opacity="0.35" fill="none">
+    <path d="M280,280 L340,280 L340,330 L400,330"/>
+    <path d="M300,60 L360,60 L360,30 L420,30"/>
+    <circle cx="400" cy="330" r="2.5" fill="#06B6D4"/>
+    <circle cx="420" cy="30" r="2.5" fill="#8B5CF6"/>
+  </g>
+
+  <!-- ===== RIGHT: Mirrored neural network ===== -->
+  <g opacity="0.95" transform="translate(1600,0) scale(-1,1)">
+    <g stroke="#8B5CF6" stroke-width="1.1" opacity="0.45">
+      <line x1="95" y1="95" x2="185" y2="60"/>
+      <line x1="95" y1="95" x2="70" y2="180"/>
+      <line x1="95" y1="95" x2="180" y2="150"/>
+      <line x1="185" y1="60" x2="255" y2="110"/>
+      <line x1="185" y1="60" x2="180" y2="150"/>
+      <line x1="70" y1="180" x2="150" y2="250"/>
+      <line x1="70" y1="180" x2="180" y2="150"/>
+      <line x1="180" y1="150" x2="255" y2="110"/>
+      <line x1="180" y1="150" x2="230" y2="210"/>
+      <line x1="255" y1="110" x2="230" y2="210"/>
+      <line x1="150" y1="250" x2="230" y2="210"/>
+      <line x1="150" y1="250" x2="120" y2="320"/>
+      <line x1="230" y1="210" x2="280" y2="280"/>
+      <line x1="120" y1="320" x2="280" y2="280"/>
+      <line x1="255" y1="110" x2="300" y2="60"/>
+      <line x1="40" y1="270" x2="120" y2="320"/>
+      <line x1="40" y1="270" x2="70" y2="180"/>
+    </g>
+    <circle r="3" fill="#C4B5FD">
+      <animateMotion dur="3.6s" repeatCount="indefinite" path="M95,95 L255,110"/>
+    </circle>
+    <circle r="2.6" fill="#67E8F9">
+      <animateMotion dur="4.4s" repeatCount="indefinite" path="M70,180 L230,210"/>
+    </circle>
+    <circle r="2.6" fill="#C4B5FD">
+      <animateMotion dur="3.9s" repeatCount="indefinite" path="M150,250 L280,280"/>
+    </circle>
+
+    <g>
+      <circle cx="95" cy="95" r="14" fill="url(#nodeGlowP)"/>
+      <circle cx="95" cy="95" r="4" fill="#F5F3FF"/>
+      <circle cx="185" cy="60" r="11" fill="url(#nodeGlowC)"/>
+      <circle cx="185" cy="60" r="3.4" fill="#E0F7FA"/>
+      <circle cx="70" cy="180" r="12" fill="url(#nodeGlowP)"/>
+      <circle cx="70" cy="180" r="3.6" fill="#F5F3FF"/>
+      <circle cx="180" cy="150" r="16" fill="url(#nodeGlowC)"/>
+      <circle cx="180" cy="150" r="5" fill="#E0F7FA"/>
+      <circle cx="255" cy="110" r="12" fill="url(#nodeGlowP)"/>
+      <circle cx="255" cy="110" r="3.6" fill="#F5F3FF"/>
+      <circle cx="150" cy="250" r="12" fill="url(#nodeGlowP)"/>
+      <circle cx="150" cy="250" r="3.6" fill="#F5F3FF"/>
+      <circle cx="230" cy="210" r="14" fill="url(#nodeGlowC)"/>
+      <circle cx="230" cy="210" r="4.2" fill="#E0F7FA"/>
+      <circle cx="120" cy="320" r="10" fill="url(#nodeGlowP)"/>
+      <circle cx="120" cy="320" r="3" fill="#F5F3FF"/>
+      <circle cx="280" cy="280" r="11" fill="url(#nodeGlowC)"/>
+      <circle cx="280" cy="280" r="3.4" fill="#E0F7FA"/>
+      <circle cx="300" cy="60" r="8" fill="url(#nodeGlowP)"/>
+      <circle cx="300" cy="60" r="2.6" fill="#F5F3FF"/>
+      <circle cx="40" cy="270" r="8" fill="url(#nodeGlowC)"/>
+      <circle cx="40" cy="270" r="2.6" fill="#E0F7FA"/>
+    </g>
+  </g>
+
+  <g stroke="#8B5CF6" stroke-width="1" opacity="0.35" fill="none">
+    <path d="M1320,280 L1260,280 L1260,330 L1200,330"/>
+    <path d="M1300,60 L1240,60 L1240,30 L1180,30"/>
+    <circle cx="1200" cy="330" r="2.5" fill="#8B5CF6"/>
+    <circle cx="1180" cy="30" r="2.5" fill="#06B6D4"/>
+  </g>
+
+  <!-- thin horizontal circuit traces across banner edges -->
+  <g stroke-width="1" fill="none">
+    <path d="M0,40 L340,40" stroke="url(#lineFade)" opacity="0.6"/>
+    <path d="M1600,40 L1260,40" stroke="url(#lineFadeP)" opacity="0.6"/>
+    <path d="M0,360 L340,360" stroke="url(#lineFadeP)" opacity="0.5"/>
+    <path d="M1600,360 L1260,360" stroke="url(#lineFade)" opacity="0.5"/>
+  </g>
+
+  <!-- binary / data stream fragments -->
+  <g font-family="monospace" font-size="11" fill="#06B6D4" opacity="0.28">
+    <text x="20" y="380">01001 10110 00101</text>
+    <text x="1440" y="30">10110 01010 11001</text>
+  </g>
+  <g font-family="monospace" font-size="11" fill="#8B5CF6" opacity="0.25">
+    <text x="1420" y="380">11010 00110 10101</text>
+    <text x="24" y="30">00110 11001 01010</text>
+  </g>
+
+  <!-- floating particles -->
+  <g fill="#67E8F9">
+    <circle cx="360" cy="90" r="1.6" opacity="0.7"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="430" cy="200" r="1.3" opacity="0.5"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="500" cy="60" r="1.4" opacity="0.6"><animate attributeName="opacity" values="0.3;0.8;0.3" dur="3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="380" cy="340" r="1.5" opacity="0.6"><animate attributeName="opacity" values="0.6;0.2;0.6" dur="2.8s" repeatCount="indefinite"/></circle>
+  </g>
+  <g fill="#C4B5FD">
+    <circle cx="1240" cy="90" r="1.6" opacity="0.7"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="1170" cy="210" r="1.3" opacity="0.5"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="3.8s" repeatCount="indefinite"/></circle>
+    <circle cx="1100" cy="55" r="1.4" opacity="0.6"><animate attributeName="opacity" values="0.3;0.8;0.3" dur="3.3s" repeatCount="indefinite"/></circle>
+    <circle cx="1220" cy="340" r="1.5" opacity="0.6"><animate attributeName="opacity" values="0.6;0.2;0.6" dur="2.6s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- subtle geometric accent rings behind text (glassmorphism depth) -->
+  <circle cx="800" cy="200" r="185" fill="none" stroke="#06B6D4" stroke-width="0.6" opacity="0.12"/>
+  <circle cx="800" cy="200" r="230" fill="none" stroke="#8B5CF6" stroke-width="0.6" opacity="0.1"/>
+
+  <!-- ===== CENTER TEXT ===== -->
+  <text x="800" y="205" text-anchor="middle" font-family="'Poppins','Sora',sans-serif" font-size="58" font-weight="700" fill="url(#titleGrad)" letter-spacing="2">
+    Shreenath Pangal
+  </text>
+
+  <text x="800" y="255" text-anchor="middle" font-family="'Poppins','Sora',sans-serif" font-size="20" font-weight="500" letter-spacing="0.5">
+    <tspan fill="#CBD5E1">Data Scientist</tspan>
+    <tspan fill="#06B6D4"> | </tspan>
+    <tspan fill="#CBD5E1">AI Engineer</tspan>
+    <tspan fill="#8B5CF6"> | </tspan>
+    <tspan fill="#CBD5E1">Machine Learning Engineer</tspan>
+    <tspan fill="#06B6D4"> | </tspan>
+    <tspan fill="#CBD5E1">Data Analyst</tspan>
+  </text>
+
+  <!-- thin accent underline -->
+  <line x1="620" y1="278" x2="980" y2="278" stroke="#06B6D4" stroke-width="1" opacity="0.5"/>
+
+  <!-- ===== TECH STACK ROW (square logo badges) ===== -->
+  <g>
+    <!-- Python -->
+    <g transform="translate(534,296)">
+      <rect x="0" y="0" width="52" height="52" rx="12" fill="#111827" stroke="#06B6D4" stroke-width="1.2"/>
+      <rect x="0" y="0" width="52" height="52" rx="12" fill="url(#nodeGlowC)" opacity="0.12"/>
+      <!-- python glyph: two interlocking blocks -->
+      <path d="M26 10 C19 10 15 13 15 18 L15 22 L27 22 L27 24 L11 24 C7 24 5 27 5 32 C5 37 7 40 11 40 L15 40 L15 35 C15 31 18 28 22 28 L31 28 C35 28 37 25 37 21 L37 17 C37 12 33 10 26 10 Z" fill="#67E8F9"/>
+      <path d="M26 42 C33 42 37 39 37 34 L37 30 L25 30 L25 28 L41 28 C45 28 47 25 47 20 C47 15 45 12 41 12 L37 12 L37 17 C37 21 34 24 30 24 L21 24 C17 24 15 27 15 31 L15 35 C15 40 19 42 26 42 Z" fill="#C4B5FD"/>
+      <circle cx="19" cy="16" r="1.6" fill="#0F172A"/>
+      <circle cx="33" cy="36" r="1.6" fill="#0F172A"/>
+    </g>
+    <!-- SQL -->
+    <g transform="translate(610,296)">
+      <rect x="0" y="0" width="52" height="52" rx="12" fill="#111827" stroke="#8B5CF6" stroke-width="1.2"/>
+      <rect x="0" y="0" width="52" height="52" rx="12" fill="url(#nodeGlowP)" opacity="0.12"/>
+      <!-- database cylinder glyph -->
+      <ellipse cx="26" cy="16" rx="14" ry="5" fill="none" stroke="#C4B5FD" stroke-width="2"/>
+      <path d="M12 16 L12 36 C12 38.8 18.3 41 26 41 C33.7 41 40 38.8 40 36 L40 16" fill="none" stroke="#C4B5FD" stroke-width="2"/>
+      <path d="M12 26 C12 28.8 18.3 31 26 31 C33.7 31 40 28.8 40 26" fill="none" stroke="#67E8F9" stroke-width="1.6"/>
+    </g>
+    <!-- TensorFlow / Neural ML -->
+    <g transform="translate(686,296)">
+      <rect x="0" y="0" width="52" height="52" rx="12" fill="#111827" stroke="#06B6D4" stroke-width="1.2"/>
+      <rect x="0" y="0" width="52" height="52" rx="12" fill="url(#nodeGlowC)" opacity="0.12"/>
+      <!-- mini neural node glyph -->
+      <line x1="16" y1="16" x2="26" y2="26" stroke="#67E8F9" stroke-width="1.6"/>
+      <line x1="36" y1="16" x2="26" y2="26" stroke="#67E8F9" stroke-width="1.6"/>
+      <line x1="16" y1="36" x2="26" y2="26" stroke="#67E8F9" stroke-width="1.6"/>
+      <line x1="36" y1="36" x2="26" y2="26" stroke="#67E8F9" stroke-width="1.6"/>
+      <circle cx="16" cy="16" r="3.2" fill="#C4B5FD"/>
+      <circle cx="36" cy="16" r="3.2" fill="#C4B5FD"/>
+      <circle cx="16" cy="36" r="3.2" fill="#C4B5FD"/>
+      <circle cx="36" cy="36" r="3.2" fill="#C4B5FD"/>
+      <circle cx="26" cy="26" r="4.2" fill="#67E8F9"/>
+    </g>
+    <!-- Pandas / Data table -->
+    <g transform="translate(762,296)">
+      <rect x="0" y="0" width="52" height="52" rx="12" fill="#111827" stroke="#8B5CF6" stroke-width="1.2"/>
+      <rect x="0" y="0" width="52" height="52" rx="12" fill="url(#nodeGlowP)" opacity="0.12"/>
+      <!-- data table glyph -->
+      <rect x="13" y="14" width="26" height="24" rx="2" fill="none" stroke="#C4B5FD" stroke-width="1.8"/>
+      <line x1="13" y1="21" x2="39" y2="21" stroke="#C4B5FD" stroke-width="1.4"/>
+      <line x1="13" y1="28" x2="39" y2="28" stroke="#C4B5FD" stroke-width="1.4"/>
+      <line x1="22" y1="14" x2="22" y2="38" stroke="#C4B5FD" stroke-width="1.4"/>
+      <line x1="31" y1="14" x2="31" y2="38" stroke="#C4B5FD" stroke-width="1.4"/>
+    </g>
+    <!-- Scikit-learn / gears -->
+    <g transform="translate(838,296)">
+      <rect x="0" y="0" width="52" height="52" rx="12" fill="#111827" stroke="#06B6D4" stroke-width="1.2"/>
+      <rect x="0" y="0" width="52" height="52" rx="12" fill="url(#nodeGlowC)" opacity="0.12"/>
+      <!-- gear glyph -->
+      <circle cx="26" cy="26" r="8" fill="none" stroke="#67E8F9" stroke-width="2"/>
+      <circle cx="26" cy="26" r="3" fill="#67E8F9"/>
+      <g stroke="#67E8F9" stroke-width="2">
+        <line x1="26" y1="12" x2="26" y2="17"/>
+        <line x1="26" y1="35" x2="26" y2="40"/>
+        <line x1="12" y1="26" x2="17" y2="26"/>
+        <line x1="35" y1="26" x2="40" y2="26"/>
+        <line x1="16" y1="16" x2="19.5" y2="19.5"/>
+        <line x1="32.5" y1="32.5" x2="36" y2="36"/>
+        <line x1="36" y1="16" x2="32.5" y2="19.5"/>
+        <line x1="19.5" y1="32.5" x2="16" y2="36"/>
+      </g>
+    </g>
+    <!-- Power BI / bar chart -->
+    <g transform="translate(914,296)">
+      <rect x="0" y="0" width="52" height="52" rx="12" fill="#111827" stroke="#8B5CF6" stroke-width="1.2"/>
+      <rect x="0" y="0" width="52" height="52" rx="12" fill="url(#nodeGlowP)" opacity="0.12"/>
+      <!-- bar chart glyph -->
+      <rect x="14" y="26" width="6" height="14" rx="1.5" fill="#C4B5FD"/>
+      <rect x="23" y="18" width="6" height="22" rx="1.5" fill="#67E8F9"/>
+      <rect x="32" y="12" width="6" height="28" rx="1.5" fill="#C4B5FD"/>
+    </g>
+  </g>
+</svg>
