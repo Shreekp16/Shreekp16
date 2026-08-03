@@ -160,7 +160,7 @@
 *If you like my work, consider giving a ⭐ to my repositories.*
 
 </div>
-<\br>
+<br>
 <p align="center">
   <img src="./assets/footer_banner (1).svg" alt="Neural Network Footer" width="100%">
 </p>
