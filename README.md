@@ -1,12 +1,6 @@
 <!-- ========================= HEADER ========================= -->
 
-<!-- ========================= HEADER ========================= -->
-
-<div align="center">
-
-<img width="100%" src="https://readme-typing-svg.herokuapp.com?font=Space+Grotesk&weight=700&size=34&duration=3500&pause=1000&color=22D3EE&center=true&vCenter=true&multiline=true&repeat=true&width=1000&height=120&lines=Shreenath+Pangal;Data+Scientist+%7C+AI+Engineer;Machine+Learning+Engineer+%7C+Data+Analyst"/>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=0:06B6D4,50:8B5CF6,100:EC4899"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=24&duration=3200&pause=800&color=3B82F6&center=true&vCenter=true&width=850&lines=Data+Scientist;AI+Engineer;Machine+Learning+Engineer;Data+Analyst;Deep+Learning+Enthusiast;Generative+AI+Explorer" alt="Typing SVG"/>
 
 </div>
 <div align="center">
