@@ -1,8 +1,25 @@
 <!-- ========================= HEADER ========================= -->
+<!-- ===== Banner ===== -->
+<p align="center">
+  <img src="github_banner.svg" alt="Shreenath Pangal - Data Scientist | AI Engineer | ML Engineer | Data Analyst" width="100%">
+</p>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=24&duration=3200&pause=800&color=3B82F6&center=true&vCenter=true&width=850&lines=Data+Scientist;AI+Engineer;Machine+Learning+Engineer;Data+Analyst;Deep+Learning+Enthusiast;Generative+AI+Explorer" alt="Typing SVG"/>
+<!-- ===== Tech Stack Badges ===== -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-0F172A?style=for-the-badge&logo=python&logoColor=06B6D4" alt="Python"/>
+  <img src="https://img.shields.io/badge/SQL-0F172A?style=for-the-badge&logo=postgresql&logoColor=8B5CF6" alt="SQL"/>
+  <img src="https://img.shields.io/badge/Pandas-0F172A?style=for-the-badge&logo=pandas&logoColor=06B6D4" alt="Pandas"/>
+  <img src="https://img.shields.io/badge/NumPy-0F172A?style=for-the-badge&logo=numpy&logoColor=8B5CF6" alt="NumPy"/>
+  <img src="https://img.shields.io/badge/Scikit--Learn-0F172A?style=for-the-badge&logo=scikit-learn&logoColor=06B6D4" alt="Scikit-learn"/>
+  <img src="https://img.shields.io/badge/TensorFlow-0F172A?style=for-the-badge&logo=tensorflow&logoColor=8B5CF6" alt="TensorFlow"/>
+  <img src="https://img.shields.io/badge/PyTorch-0F172A?style=for-the-badge&logo=pytorch&logoColor=06B6D4" alt="PyTorch"/>
+  <img src="https://img.shields.io/badge/Jupyter-0F172A?style=for-the-badge&logo=jupyter&logoColor=8B5CF6" alt="Jupyter"/>
+  <img src="https://img.shields.io/badge/Tableau-0F172A?style=for-the-badge&logo=tableau&logoColor=06B6D4" alt="Tableau"/>
+  <img src="https://img.shields.io/badge/Power_BI-0F172A?style=for-the-badge&logo=powerbi&logoColor=8B5CF6" alt="Power BI"/>
+  <img src="https://img.shields.io/badge/Git-0F172A?style=for-the-badge&logo=git&logoColor=06B6D4" alt="Git"/>
+  <img src="https://img.shields.io/badge/Docker-0F172A?style=for-the-badge&logo=docker&logoColor=8B5CF6" alt="Docker"/>
+</p>
 
-</div>
 <div align="center">
 
 <h1>Hi 👋, I'm Shreenath Pangal</h1>
