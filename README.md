@@ -10,7 +10,7 @@
 
 <br>
 
-<h3>🎓 Computer Science Graduate &nbsp;|&nbsp; 🇮🇳 India &nbsp;|&nbsp; 🚀 Open to Work</h3>
+<h3>🎓 Computer Science Graduate &nbsp;|&nbsp; 🇮🇳 India &nbsp;|&nbsp; 🚀 Open to Opportunities</h3>
 
 <br>
 
