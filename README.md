@@ -1,6 +1,6 @@
 <!-- ========================= HEADER ========================= -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00C6FB,50:3B82F6,100:8B5CF6&height=170&section=header&text=Shreenath%20Pangal&fontSize=42&fontColor=ffffff&animation=twinkling&fontAlignY=36&desc=Data%20Analyst%20%7C%20Data%20Scientist%20%7C%20AI%20Engineer%20%7C%20ML%20Engineer&descSize=18&descAlignY=58"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=24&duration=3500&pause=900&color=3B82F6&center=true&vCenter=true&width=850&lines=Data+Scientist;AI+Engineer;Machine+Learning+Engineer;Data+Analyst;Deep+Learning+Enthusiast;Generative+AI+Explorer" alt="Typing SVG" />
 
 <div align="center">
 
