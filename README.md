@@ -1,9 +1,7 @@
 <!-- ========================= HEADER ========================= -->
-<!-- ===== Banner ===== -->
 <p align="center">
-  <img src="github_banner.svg" alt="Shreenath Pangal - Data Scientist | AI Engineer | ML Engineer | Data Analyst" width="100%">
+  <img src="./assets/github_banner (10).svg" alt="Shreenath Pangal Banner" width="100%">
 </p>
-
 <!-- ===== Tech Stack Badges ===== -->
 <p align="center">
   <img src="https://img.shields.io/badge/Python-0F172A?style=for-the-badge&logo=python&logoColor=06B6D4" alt="Python"/>
