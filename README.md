@@ -1,6 +1,14 @@
 <!-- ========================= HEADER ========================= -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=190&color=gradient&customColorList=24,20,17,12&text=Shreenath%20Pangal&fontColor=ffffff&fontSize=44&fontAlignY=36&animation=twinkling&desc=Data%20Scientist%20%7C%20AI%20Engineer%20%7C%20Machine%20Learning%20Engineer%20%7C%20Data%20Analyst&descSize=18&descAlignY=58"/>
+<!-- ========================= HEADER ========================= -->
+
+<div align="center">
+
+<img width="100%" src="https://readme-typing-svg.herokuapp.com?font=Space+Grotesk&weight=700&size=34&duration=3500&pause=1000&color=22D3EE&center=true&vCenter=true&multiline=true&repeat=true&width=1000&height=120&lines=Shreenath+Pangal;Data+Scientist+%7C+AI+Engineer;Machine+Learning+Engineer+%7C+Data+Analyst"/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=0:06B6D4,50:8B5CF6,100:EC4899"/>
+
+</div>
 <div align="center">
 
 <h1>Hi 👋, I'm Shreenath Pangal</h1>
