@@ -150,9 +150,7 @@
 </a>
 
 </div>
-<p align="center">
-  <img src="./assets/footer_banner.svg" alt="Footer" width="100%">
-</p>
+
 ---
 
 <div align="center">
@@ -163,4 +161,6 @@
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=90&section=footer&color=gradient&customColorList=30,24,20,12"/>
+<p align="center">
+  <img src="./assets/footer_banner.svg" alt="Neural Network Footer" width="100%">
+</p>
