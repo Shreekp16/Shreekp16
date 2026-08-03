@@ -86,9 +86,11 @@
 
 <div align="center">
 
-<img height="150" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Shreekp16&show_icons=true&theme=tokyonight&hide_border=true"/>
+<img height="160" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Shreekp16&show_icons=true&theme=tokyonight&hide_border=true"/>
 
-<img height="150" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Shreekp16&layout=compact&theme=tokyonight&hide_border=true"/>
+&nbsp;&nbsp;&nbsp;
+
+<img height="160" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Shreekp16&layout=compact&theme=tokyonight&hide_border=true"/>
 
 </div>
 ---
@@ -107,23 +109,46 @@
 
 <div align="center">
 
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Shreekp16&theme=github-dark&hide_border=true"/>
+<img width="88%" src="https://github-readme-activity-graph.vercel.app/graph?username=Shreekp16&theme=github-dark&hide_border=true"/>
 
 </div>
 
 ---
 
-## 🚀 Featured Projects
-
 <div align="center">
 
-| Project | Description |
-| :------ | :---------- |
-| 🤖 Machine Learning Projects | Classification, Regression & Predictive Models |
-| 📊 Data Analysis Projects | Data Cleaning, EDA & Insights using Python |
-| 📈 Power BI Dashboards | Interactive Business Intelligence Dashboards |
-| 🗄 SQL Projects | SQL Queries, Case Studies & Database Analysis |
-| 🌐 Portfolio Website | Personal Portfolio showcasing projects and skills |
+<table width="88%">
+<tr>
+<th>🚀 Project</th>
+<th>Description</th>
+</tr>
+
+<tr>
+<td>🤖 Machine Learning Projects</td>
+<td>Classification, Regression & Predictive Models</td>
+</tr>
+
+<tr>
+<td>📊 Data Analysis Projects</td>
+<td>Data Cleaning, Exploratory Data Analysis & Business Insights</td>
+</tr>
+
+<tr>
+<td>📈 Power BI Dashboards</td>
+<td>Interactive Dashboards & KPI Reporting</td>
+</tr>
+
+<tr>
+<td>🗄 SQL Projects</td>
+<td>Database Design, Queries & Case Studies</td>
+</tr>
+
+<tr>
+<td>🌐 Portfolio Website</td>
+<td>Personal Portfolio Showcasing Projects & Skills</td>
+</tr>
+
+</table>
 
 </div>
 
