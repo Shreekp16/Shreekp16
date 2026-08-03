@@ -162,5 +162,5 @@
 </div>
 
 <p align="center">
-  <img src="./assets/footer_banner.svg" alt="Neural Network Footer" width="100%">
+  <img src="./assets/footer_banner (1).svg" alt="Neural Network Footer" width="100%">
 </p>
