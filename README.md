@@ -8,7 +8,7 @@
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=24&duration=3500&pause=900&color=3B82F6&center=true&vCenter=true&width=850&lines=Data+Analyst;Data+Scientist;AI+Engineer;Machine+Learning+Engineer;Deep+Learning+Enthusiast;Generative+AI+Explorer" alt="Typing SVG" />
 
-<br><br>
+<br>
 
 <h3>🎓 Computer Science Graduate &nbsp;|&nbsp; 🇮🇳 India &nbsp;|&nbsp; 🚀 Open to Work</h3>
 
