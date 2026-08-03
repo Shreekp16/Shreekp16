@@ -50,55 +50,34 @@
 
 🎓 B.Tech Computer Science Graduate (2025)
 
-📊 Passionate about Data Analytics, Machine Learning, and Artificial Intelligence
+📊 Passionate about Data Analytics, Machine Learning, and Artificial Intelligence.
 
-💡 Skilled in Python, SQL, Pandas, NumPy, Scikit-Learn, TensorFlow, Power BI, and Excel
+💡 Interested in building data-driven solutions using Python, SQL, Machine Learning, and Business Intelligence tools.
 
-📈 Building end-to-end Machine Learning and Data Analysis projects
+📈 Enjoy working on Machine Learning models, Data Analysis, Dashboard Development, and solving real-world business problems.
 
-🌱 Currently learning Deep Learning, NLP, MLOps, Docker, AWS, and Generative AI
-
-🎯 Looking for opportunities as a Data Analyst, Data Scientist, or Machine Learning Engineer
-
-⚡ *Learning by building real-world projects.*
+🎯 Currently seeking opportunities as a **Data Analyst**, **Data Scientist**, or **Machine Learning Engineer**.
 
 </div>
 
 ---
 
-## 💻 Tech Stack
+## 💻 Technical Proficiency
 
 <div align="center">
 
-### Languages
-
-<img src="https://skillicons.dev/icons?i=python,mysql"/>
-
-### Data Science
-
-<img src="https://go-skill-icons.vercel.app/api/icons?i=pandas"/>
-
-<img src="https://go-skill-icons.vercel.app/api/icons?i=numpy"/>
-
-<img src="https://go-skill-icons.vercel.app/api/icons?i=scikitlearn"/>
-
-<img src="https://skillicons.dev/icons?i=tensorflow"/>
-
-### Visualization
-
-<img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
-
-<img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white"/>
-
-### Tools
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode"/>
+| 🐍 Programming | 🤖 Machine Learning | 📊 Data Analytics | 📈 Data Visualization |
+| :------------: | :-----------------: | :---------------: | :-------------------: |
+| Python | Scikit-Learn | Data Cleaning | Power BI |
+| SQL | TensorFlow | Exploratory Data Analysis (EDA) | Matplotlib |
+| Pandas | Model Evaluation | Feature Engineering | Seaborn |
+| NumPy | Supervised Learning | Statistical Analysis | Microsoft Excel |
 
 </div>
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Statistics
 
 <div align="center">
 
@@ -130,34 +109,19 @@
 
 ---
 
-## 🚀 Currently Working On
+## 🚀 Featured Projects
 
-- 🤖 End-to-End Machine Learning Projects
-- 📊 Data Analysis using Python & SQL
-- 📈 Interactive Power BI Dashboards
-- ⚙️ Feature Engineering & Model Evaluation
-- 🧠 Deep Learning Fundamentals
+<div align="center">
 
----
+| Project | Description |
+| :------ | :---------- |
+| 🤖 Machine Learning Projects | Classification, Regression & Predictive Models |
+| 📊 Data Analysis Projects | Data Cleaning, EDA & Insights using Python |
+| 📈 Power BI Dashboards | Interactive Business Intelligence Dashboards |
+| 🗄 SQL Projects | SQL Queries, Case Studies & Database Analysis |
+| 🌐 Portfolio Website | Personal Portfolio showcasing projects and skills |
 
-## 🌱 Currently Learning
-
-- Deep Learning
-- Generative AI
-- NLP
-- MLOps
-- Docker
-- AWS
-
----
-
-## ⭐ Featured Projects
-
-- 🤖 Machine Learning Projects
-- 📊 Data Analysis Projects
-- 📈 Power BI Dashboards
-- 🐍 Python Automation
-- 🗄 SQL Case Studies
+</div>
 
 ---
 
@@ -177,15 +141,19 @@
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
+<a href="https://shreenath-pangal.netlify.app/">
+<img src="https://img.shields.io/badge/Portfolio-00C7B7?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+</a>
+
 </div>
 
 ---
 
 <div align="center">
 
-### ⭐ Thanks for visiting my profile!
+### ⭐ Thanks for Visiting My Profile!
 
-If you like my work, consider giving a ⭐ to my repositories.
+*If you like my work, consider giving a ⭐ to my repositories.*
 
 </div>
 
