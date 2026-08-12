@@ -97,7 +97,7 @@
 
 ---
 
-### 🥗 NutriPredict AI — Personalized Diet Recommendation System
+### Project 1: 🥗 NutriPredict AI — Personalized Diet Recommendation System
 
 **ML-powered diet recommendation system** that analyzes health and fitness parameters such as **BMI, activity level, blood sugar, cholesterol, and fitness goals** to predict a suitable diet category.
 
