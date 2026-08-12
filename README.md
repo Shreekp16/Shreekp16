@@ -107,10 +107,6 @@ Built with **Python, Scikit-learn, KNN, SMOTE, Streamlit, Pandas, and Plotly**. 
 
 ---
 
-
-
-## 📊 GitHub Statistics
-
 ## 📊 GitHub Statistics
 
 <div align="center">
