@@ -81,6 +81,32 @@
 </div>
 
 ---
+## 🚀 Featured Projects
+
+<div align="center">
+
+| 🚀 Project | 📝 Description |
+|:-----------|:---------------|
+| 🤖 **Machine Learning Projects** | Classification, Regression & Predictive Models |
+| 📊 **Data Analysis Projects** | Data Cleaning, EDA & Insights using Python |
+| 📈 **Power BI Dashboards** | Interactive Business Intelligence Dashboards |
+| 🗄️ **SQL Projects** | SQL Queries, Case Studies & Database Analysis |
+| 🌐 **Portfolio Website** | Personal Portfolio showcasing Projects and Skills |
+
+</div>
+---
+
+### 🥗 NutriPredict AI — Personalized Diet Recommendation System
+
+**ML-powered diet recommendation system** that analyzes health and fitness parameters such as BMI, activity level, blood sugar, cholesterol, and fitness goals to predict a suitable diet category.
+
+Built with **Python, Scikit-learn, KNN, SMOTE, Streamlit, Pandas, and Plotly**. The optimized model achieved **90.8% accuracy** and **89.4% Macro F1-score**, with an interactive dashboard for personalized diet and meal recommendations.
+
+🔗 **[GitHub Repository](https://github.com/Shreekp16/Diet-Recommendation-System)**   |   🚀 **[Live Demo](https://diet-recommendation-system-qvrbhfmbtkcv9jklcxwfku.streamlit.app/)**
+
+---
+
+
 
 ## 📊 GitHub Statistics
 
@@ -111,35 +137,6 @@
 <img width="88%" src="https://github-readme-activity-graph.vercel.app/graph?username=Shreekp16&theme=github-dark&hide_border=true"/>
 
 </div>
-
----
-
-## 🚀 Featured Projects
-
-<div align="center">
-
-| 🚀 Project | 📝 Description |
-|:-----------|:---------------|
-| 🤖 **Machine Learning Projects** | Classification, Regression & Predictive Models |
-| 📊 **Data Analysis Projects** | Data Cleaning, EDA & Insights using Python |
-| 📈 **Power BI Dashboards** | Interactive Business Intelligence Dashboards |
-| 🗄️ **SQL Projects** | SQL Queries, Case Studies & Database Analysis |
-| 🌐 **Portfolio Website** | Personal Portfolio showcasing Projects and Skills |
-
-</div>
----
-
-### 🥗 NutriPredict AI — Personalized Diet Recommendation System
-
-**ML-powered diet recommendation system** that analyzes health and fitness parameters such as BMI, activity level, blood sugar, cholesterol, and fitness goals to predict a suitable diet category.
-
-Built with **Python, Scikit-learn, KNN, SMOTE, Streamlit, Pandas, and Plotly**. The optimized model achieved **90.8% accuracy** and **89.4% Macro F1-score**, with an interactive dashboard for personalized diet and meal recommendations.
-
-🔗 **[GitHub Repository](https://github.com/Shreekp16/Diet-Recommendation-System)**   |   🚀 **[Live Demo](https://diet-recommendation-system-qvrbhfmbtkcv9jklcxwfku.streamlit.app/)**
-
----
-
-
 ---
 
 ## 📫 Connect With Me
