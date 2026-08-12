@@ -16,12 +16,9 @@
 
 <br>
 
-<img src="https://komarev.com/ghpvc/?username=Shreekp16&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views"/>
+<img src="https://img.shields.io/badge/Profile%20Views-0-0e75b6?style=flat" alt="Profile Views"/>
 
 </div>
-
-</div>
-
 ---
 
 ## 🌐 Connect With Me
