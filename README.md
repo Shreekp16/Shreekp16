@@ -19,7 +19,10 @@
 <img src="https://img.shields.io/badge/Profile%20Views-0-0e75b6?style=flat" alt="Profile Views"/>
 
 </div>
+
 ---
+
+## 🌐 Connect With Me
 
 ## 🌐 Connect With Me
 
