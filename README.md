@@ -65,18 +65,17 @@
 </div>
 
 ---
-
 ## 💻 Technical Proficiency
 
 <div align="center">
 
-| 🐍 Programming | 📊 Data Science & Analytics | 🤖 AI & Machine Learning | 📈 Visualization & BI |
-|:--------------:|:---------------------------:|:------------------------:|:---------------------:|
-| Python | Data Cleaning | Machine Learning | Power BI |
-| SQL | Data Preprocessing | Deep Learning | Matplotlib |
-| Pandas | Exploratory Data Analysis (EDA) | Generative AI | Seaborn |
-| NumPy | Feature Engineering | Scikit-Learn | Microsoft Excel |
-| Git & GitHub | Statistical Analysis | TensorFlow | Jupyter Notebook |
+| 🐍 Programming |   📊 Data Science & Analytics   | 🤖 AI & Machine Learning | 📈 Visualization & BI |
+| :------------: | :-----------------------------: | :----------------------: | :-------------------: |
+|     Python     |          Data Cleaning          |     Machine Learning     |        Power BI       |
+|       SQL      |        Data Preprocessing       |       Deep Learning      |       Matplotlib      |
+|     Pandas     | Exploratory Data Analysis (EDA) |       Generative AI      |        Seaborn        |
+|      NumPy     |       Feature Engineering       |       Scikit-Learn       |    Microsoft Excel    |
+|  Git & GitHub  |       Statistical Analysis      |        TensorFlow        |    Jupyter Notebook   |
 
 </div>
 
@@ -86,20 +85,21 @@
 
 <div align="center">
 
-| 🚀 Project | 📝 Description |
-|:-----------|:---------------|
-| 🤖 **Machine Learning Projects** | Classification, Regression & Predictive Models |
-| 📊 **Data Analysis Projects** | Data Cleaning, EDA & Insights using Python |
-| 📈 **Power BI Dashboards** | Interactive Business Intelligence Dashboards |
-| 🗄️ **SQL Projects** | SQL Queries, Case Studies & Database Analysis |
-| 🌐 **Portfolio Website** | Personal Portfolio showcasing Projects and Skills |
+| 🚀 Project                       | 📝 Description                                    |
+| :------------------------------- | :------------------------------------------------ |
+| 🤖 **Machine Learning Projects** | Classification, Regression & Predictive Models    |
+| 📊 **Data Analysis Projects**    | Data Cleaning, EDA & Insights using Python        |
+| 📈 **Power BI Dashboards**       | Interactive Business Intelligence Dashboards      |
+| 🗄️ **SQL Projects**             | SQL Queries, Case Studies & Database Analysis     |
+| 🌐 **Portfolio Website**         | Personal Portfolio showcasing Projects and Skills |
 
 </div>
+
 ---
 
 ### 🥗 NutriPredict AI — Personalized Diet Recommendation System
 
-**ML-powered diet recommendation system** that analyzes health and fitness parameters such as BMI, activity level, blood sugar, cholesterol, and fitness goals to predict a suitable diet category.
+**ML-powered diet recommendation system** that analyzes health and fitness parameters such as **BMI, activity level, blood sugar, cholesterol, and fitness goals** to predict a suitable diet category.
 
 Built with **Python, Scikit-learn, KNN, SMOTE, Streamlit, Pandas, and Plotly**. The optimized model achieved **90.8% accuracy** and **89.4% Macro F1-score**, with an interactive dashboard for personalized diet and meal recommendations.
 
