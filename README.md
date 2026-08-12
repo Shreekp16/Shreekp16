@@ -108,16 +108,15 @@ Built with **Python, Scikit-learn, KNN, SMOTE, Streamlit, Pandas, and Plotly**. 
 ---
 
 
-<---## 📊 GitHub Statistics
+## 📊 GitHub Statistics
 
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=Shreekp16&show_icons=true&theme=tokyonight&hide_border=true" height="180"/>
+
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shreekp16&layout=compact&theme=tokyonight&hide_border=true" height="180"/>
 
 </div>
---->
-
 ## 🔥 GitHub Streak
 
 <div align="center">
